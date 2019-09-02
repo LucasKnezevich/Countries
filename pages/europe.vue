@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-center">Europe</h1>
+    <h1 class="page-title text-center">Europe</h1>
     <section class="card-wrap">
       <CountryCard
         v-for="country in countries"

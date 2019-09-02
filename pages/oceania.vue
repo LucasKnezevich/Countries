@@ -2,7 +2,7 @@
 
 <template>
   <div class="container">
-    <h1 class="text-center">Oceania</h1>
+    <h1 class="page-title text-center">Oceania</h1>
     <section class="card-wrap">
       <CountryCard
         v-for="country in countries"

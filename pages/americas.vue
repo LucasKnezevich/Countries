@@ -2,7 +2,7 @@
 
 <template>
   <div class="container">
-    <h1 class="text-center">The Americas</h1>
+    <h1 class="page-title text-center">The Americas</h1>
     
     <section class="card-wrap">
       <CountryCard

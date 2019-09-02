@@ -75,4 +75,8 @@ body {
   text-align: center;
 }
 
+.page-title {
+  font-weight: bold;
+}
+
 </style>
