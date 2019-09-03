@@ -71,12 +71,14 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  align-items: center;
+  align-items: start;
   text-align: center;
 }
 
-.page-title {
-  font-weight: bold;
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 </style>

@@ -2,8 +2,11 @@
 
 <template>
   <div class="container">
-    <h1 class="page-title text-center">The Americas</h1>
-    
+    <Header v-slot:title>{{title[1]}}</Header>
+    <div class="button-wrapper">
+      <b-button v-b-toggle.collapse-1 class="toggle-button" variant="primary">Toggle additional info</b-button>
+    </div>
+
     <section class="card-wrap">
       <CountryCard
         v-for="country in countries"
@@ -17,17 +20,19 @@
 <script>
 import axios from 'axios'
 import CountryCard from '@/components/CountryCard.vue'
+import Header from '@/components/Header.vue'
 
 export default {
   components: {
-    CountryCard
+    CountryCard,
+    Header
   },
   data () {
     return {
       loading: true,
       countries: null,
       errored: false,
-      title: 'The Americas | Countries'
+      title: ['The Americas | Countries', 'The Americas']
     }
   },
   mounted () {
@@ -42,7 +47,7 @@ export default {
   },
   head () {
     return {
-      title: this.title,
+      title: this.title[0],
       meta: [
         {hid: 'description', name: 'descriptoon', content: 'Countries of The Americas'}
       ]
