@@ -69,7 +69,13 @@ body {
   max-width: 1200px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr)
+  };
+  @media (min-width: 992px) {
+    grid-template-columns: repeat(3, 1fr)
+  };
   justify-items: center;
   align-items: start;
   text-align: center;

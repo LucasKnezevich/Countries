@@ -6,10 +6,13 @@ export default {
   */
   head: {
     title: process.env.npm_package_name || '',
+    // Adding 'keywords' and 'description2' for SEO purposes.
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'keywords', name: 'keyworkds', content: 'countries, africa, americas, america, asia, europe, oceania'},
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { hid: 'description2', name: 'description2', content: 'Information about countries, divided into regions.'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

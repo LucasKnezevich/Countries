@@ -29,6 +29,7 @@ export default {
   width: 220px;
   min-height: 300px;
   border: 2px solid #000000;
+  background-color: rgba(255, 255, 255, .8);
   display: flex;
   &__img {
     display: block;

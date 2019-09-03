@@ -48,7 +48,7 @@ export default {
     return {
       title: this.title[0],
       meta: [
-        {hid: 'description', name: 'descriptoon', content: 'Countries of Asia'}
+        {hid: 'description', name: 'description', content: 'Countries of Asia'}
       ]
     }
   } 

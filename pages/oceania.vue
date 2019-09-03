@@ -50,7 +50,7 @@ export default {
     return {
       title: this.title[0],
       meta: [
-        {hid: 'description', name: 'descriptoon', content: 'Countries of Oceania'}
+        {hid: 'description', name: 'description', content: 'Countries of Oceania'}
       ]
     }
   } 
