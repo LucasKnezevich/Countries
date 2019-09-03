@@ -2,10 +2,11 @@
   <div class="container mt-5">
     <!-- Jumbotron -->
     <b-jumbotron bg-variant="info" text-variant="white" border-variant="dark">
-      <template slot="header">Countries</template>
-      <template slot="lead">
-      This website contains information about countries, grouped by region.
-      </template>
+      <h1 class="display-4 text-center">Countries</h1>
+      <br>
+      <p class="lead">
+      This website contains basic information about countries, grouped by region.
+      </p>
       <hr class="my-4">
       <p>All data provided by the <a href="http://restcountries.eu" target="_blank">restcountries.eu</a> API.</p>
     </b-jumbotron>

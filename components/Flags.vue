@@ -27,7 +27,7 @@ export default {
 
 
 <template>
-    <div class="carousel-wrapper">
+    <div class="carousel-wrapper mt-5">
         <b-carousel
             id="carousel-1"
             v-model="slide"
